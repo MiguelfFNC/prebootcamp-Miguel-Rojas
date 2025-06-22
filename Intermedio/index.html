@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tarea nivel Intermedio</title>
+  </head>
+  <body>
+    <header id="header-1">
+      <h1>TAREA NIVEL INTERMEDIO</h1>
+    </header>
+
+    <header id="header-2">
+      <label class="espacio-name">Nombre:</label>
+      <input
+        type="text"
+        id="nombre"
+        placeholder="Ingrese su nombre"
+        onkeypress="soloLetras(event)"
+        class="espacio"
+      />
+      <button id="btnEnviar" class="espacio">Enviar</button>
+      <button id="btnLimpiar" class="espacio">limpiar</button>
+      <input type="text" id="mostrar" readonly size="22" class="espacio" />
+    </header>
+
+    <script src="app.js"></script>
+  </body>
+</html>

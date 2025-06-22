@@ -1,0 +1,39 @@
+body {
+  background-color: #5e96ae;
+}
+
+#header-1 {
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #b2ebe0;
+  text-align: center;
+}
+
+#header-2 {
+  background-color: #b2ebe0;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 24px;
+  border: black solid 2px;
+}
+
+.espacio,
+.espacio-name {
+  display: block;
+  margin: 10px auto;
+}
+
+.espacio-name {
+  width: fit-content;
+  border-radius: 4px;
+}
+button {
+  background-color: #5e96ae;
+  border: black solid 0.5px;
+  width: 84px;
+  height: 20px;
+  border-radius: 4px;
+  color: white;
+}
